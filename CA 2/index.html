@@ -2,7 +2,19 @@
 <html>
   <head>
     <title>Dev Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+      .details-list{
+        color:red 
+      }
+      .list{
+        color:blue
+      }
+      .color{
+        color:darkblue
+      }
+    </style>
   </head>
 <nav>
     <ul>
@@ -11,13 +23,14 @@
         <li><a href="#wk2">Week 3</a></li>
     </ul>
 </nav>
-<article id = "wk1">
-    <h1>Week 1 - Introduction to Web Development</h1>
+<article>
+    <h1 id = "wk1">Week 1 - Introduction to Web Development</h1>
+    <img src="https://woz-u.com/wp-content/uploads/2022/06/Evolution-of-Coding-scaled.jpg" alt = "Programming" width = "600">
     <p><b>What I learnt:</b></p>
     <ul>
         <li>Front End Developers</li>
-        <li>Introduction On HTML</li>
-          <ul>
+        <li class="details-list">Introduction On HTML</li>
+          <ul class="list">
             <li>Structure of HTML Documents</li>
             <li>tag - HTML Tags</li>
             <li>p - Paragraph</li>
@@ -38,11 +51,66 @@
         <li>Introduction On CSS</li>
         <li>Elements Within Elements</li>
     </ul>
-    <body>
+    <details>
       <p><b>Homework:</b></p>
       <ul>
         <li>My First Web Page (Recipe Card)</li>
         <li>What makes a GOOD Website? (Discussion)</li>
       </ul>
-    </body>
+    </details>
+
+<h1 id = "wk2">Week 2 - Semantic HTML & CSS</h1>
+<img src="https://www.freecodecamp.org/news/content/images/2021/08/Htmlcss.png" alt= "Programming" width = "600">
+<p><b>What I learnt:</b></p>
+<ul>
+  <li>Semantic Web</li>
+  <li class="details-list">HTML Semantic Elements</li>
+    <ul class="list">
+      <li>header - Introductory Content</li>
+      <li>nav - Location Of Menu Links</li>
+      <li>article - Used For News Content</li>
+      <li>section </li>
+      <li>aside - Content That Is Indirectly Related To Main Content</li>
+      <li>details</li>
+      <li>table</li>
+      <li>main</li>
+      <li>mark</li>
+      <li>figure</li>
+      <li>form</li>
+    </ul>
+  <li class="details-list">CSS Functions</li>
+    <ul class="list">
+      <li>CSS Rule - selector{property: value;}</li>
+      <li>Ways To Include Styles</li>
+        <ul class="color">
+          <li>link - External Style stylesheet</li>
+          <li>Inline Style</li>
+          <li>style - Style Element</li>
+          <li>@import</li>
+        </ul>
+      <li>Colors</li>
+      <li>ID Attribute</li>
+      <li>Class Attribute</li>
+      <li>Fonts</li>
+        <ul class="color">
+          <li>font-style</li>
+          <li>font-size</li>
+          <li>font-weight</li>
+          <li>font-family</li>
+        </ul>
+      <li></li>
+
+    </ul>
+  
+</ul>
+<details>
+  <p><b>Homework:</b></p>
+  <ul>
+    <li>Replacing Non-Semantic Tags With Semantic Tags</li>
+    <li>Web Dev Blog - CSS Properties</li>
+    <li>Applying Class And ID</li>
+    <li>Importing Google Fonts</li>
+  </ul>
+</details>
      
+<h1 id="wk3">Week 3 - Yet To Completed</h1>
