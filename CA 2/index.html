@@ -20,7 +20,10 @@
     <ul>
         <li><a href="#wk1">Week 1</a></li>
         <li><a href="#wk2">Week 2</a></li>
-        <li><a href="#wk2">Week 3</a></li>
+        <li><a href="#wk3">Week 3</a></li>
+        <li><a href="#wk4">Week 4</a></li>
+        <li><a href="#wk5">Week 5</a></li>
+        <li><a href="#wk6">Week 6</a></li>
     </ul>
 </nav>
 <article>
@@ -180,5 +183,170 @@
     <li>Signup Form Using HTML Elements With Form Validations</li>
     <li>Z-Index</li>
     <li>FlexBox</li>
+  </ul>
+</details>
+
+<h1 id="wk4">Week 4 - Responsive Images</h1>
+<p><b>What I learnt:</b></p>
+<ul>
+  <li>Resize</li>
+  <li >Fit Images To A Box</li>
+    <ul>
+      <li>background-size: cover;</li>
+    </ul>
+  
+  <li>More Flexboxes </li>  
+</ul>
+<details>
+  <p><b>Homework:</b></p>
+  <ul>
+    <li>Creating New Media Queries To Cater To Mobile Devices</li>
+    <li>Split UI Using Flexbox</li>
+  </ul>
+</details>
+
+<h1 id="wk3">Week 5 - Introduction To JavaScript</h1>
+<p><b>What I learnt:</b></p>
+<ul>
+  <li>Syntax</li>
+  <li>Control Structures</li>
+  <li class="details-list">Variables</li>
+    <ul class="list">
+      <li>Declaring & Assigning Variables</li>
+      <li>var - Allows Variable To Be Changed Later</li>
+      <li>const - Variable Cannot Be Changed</li>
+      <li>let variable = ...</li>
+    </ul>
+  
+  <li class="details-list">Types Of Data</li>
+    <ul class="list">
+      <li>Strings</li>
+        <ul class="color">
+          <li>.toUpperCase()</li>
+          <li>.length</li>
+          <li>"${variable}" - Formatting</li>
+        </ul>
+      <li>Numbers</li>
+        <ul class="color">
+          <li>Infinity</li>
+          <li>-Infinity</li>
+          <li>NaN</li>
+          <li>Math</li>
+            <ul>
+              <li>.round()</li>
+              <li>.random()</li>
+            </ul>
+        </ul>
+      <li>Booleans</li>
+      <ul class="color">
+        <li>true/false - Small Letters</li>
+        <li>===/!== - Strict Equality Function</li>
+        <li>==/!= - Not Strict Equality Function</li>
+      </ul>
+      <li>Objects</li>
+      <ul class="color">
+        <li>Use {}</li>
+        <li>{"label":"value:"}</li>
+        <li>Data Modeling</li>
+        <li>["label"]/.label</li>
+        <li>delete - Remove Object</li>
+        <li>Making Copies Of An Object</li>
+          <ul>
+            <li>variable = Object.assign({}, variable)</li>
+            <li>variable = {...variable}</li>
+            <li>JSON.parse(JSON.stringify(variable))</li>
+          </ul>
+      </ul>
+      <li>Arrays</li>
+        <ul class="color">
+          <li>Use []</li>
+          <li>Can Store Any Type In It</li>
+          <li>.length</li>
+          <li>Array[index] = '...'</li>
+          <li>Add To End Of Array</li>
+            <ul>
+              <li>array.push("...")</li>
+              <li>array[array.length] = '...'</li>
+            </ul>
+          <li>array.pop() - Remove Item At The End</li>
+          <li>array.splice(index, number items to remove) - Remove Item At Specific Index</li>
+        </ul>
+      <li>Readability</li>
+        <ul class="color">
+          <li>Whitespace</li>
+          <li>Comments</li>
+            <ul>
+              <li>// - Line Comments</li>
+              <li>/* */ - Block Comments</li>
+            </ul>
+        </ul>
+      <li>Regular Expression</li>
+        <ul class="color">
+          <li>variable = /this/</li>
+            <ul>
+              <li>variable.test</li>
+              <li>/this/i (Case Insensitive)</li>
+              <li>/^this/i (Check Beginning Of The String)</li>
+              <li>/this$/i (Checking End Of The String)</li>
+              <li>/ever.$/i (Checking End Of String) - The "." Checks For Anything</li>
+              <li>/ever\.$/i (Checking For End Of String) - Checks For Literal "."</li>
+            </ul>
+        </ul>
+    </ul>
+  <li>Arithmetic Operators</li>
+        <ul>
+          <li>+, -, *, /, % (Gives Remainder For Division), +=, ++, -=, --, *=</li>
+        </ul>
+  <li>Logical Operators</li>
+        <ul>
+          <li>&& - And</li>
+          <li>|| - Or</li>
+        </ul>
+  <li>Conditionals</li>
+        <ul>
+          <li>if / else if/ else</li>
+          <li>switch - case...: / default:</li>
+          <li>Terse ifs</li>
+            <ul>
+              <li>One-liners</li>
+              <li>Ternaries</li>
+                <ul>
+                  <li>? - If True</li>
+                  <li>: - If False</li>
+                </ul>
+            </ul>
+        </ul>
+  <li>Type Checking</li>
+        <ul>
+          <li>typeof</li>
+          <li>hasOwnProperty()</li>
+          <li>isNaN()</li>
+        </ul>
+  <li>Loops</li>
+        <ul>
+          <li>For Loops</li>
+            <ul>
+              <li>for (let i = 0; i => 10; i+=1) { ... } </li>
+              <li>for( var p in variable) { ... }</li>
+            </ul>
+          <li>While Loops</li>
+            <ul>
+              <li>while() {...}</li>
+              <li>do{} while(); - Run The Loop At Least Once</li>
+            </ul>
+        </ul>
+  <li>Set And Map</li>
+        <ul>
+          <li>let mySet = new Set()</li>
+          <li>let myMap = new Map()</li>
+          <li>.add() - Add In Values</li>
+          <li>new Set(List) - Removes Duplicates Of Array/List</li>
+        </ul>
+  
+</ul>
+<details>
+  <p><b>Homework:</b></p>
+  <ul>
+    <li>Web Dev Blog</li>
   </ul>
 </details>
